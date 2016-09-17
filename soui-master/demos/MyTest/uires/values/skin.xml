@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  <!--<imglist name="skin.btn_close" src="PNG:ID_PNG_BTN_CLOSE" states="4"/>
+  <imglist name="skin.btn_max" src="PNG:ID_PNG_BTN_MAX" states="4"/>
+  <imglist name="skin.btn_restore" src="PNG:ID_PNG_BTN_RESTORE" states="4"/>
+  <imglist name="skin.btn_min" src="PNG:ID_PNG_BTN_MIN" states="4"/>
+
+  <imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
+  <imglist name="skin.bg" src="PNG:ID_PNG_BG" />
+  <imgframe name="skin.shadow" src="PNG:ID_PNG_SHADOW" left="5" top="3" right="5" bottom="7"/>-->
+  <imgframe name="skin.main_center" src="PNG:ID_PNG_MAIN_CENTER" left="0" top="0" right="10" bottom="40"/>
+  <!-- page main-->
+  <imglist name="skin.home_tiyan" src="PNG:ID_PNG_HOME_TIYAN" states="3"/>
+  <imglist name="skin.switch_back" src="PNG:ID_PNG_SWITCH_BACK" states="1"/>
+  <imglist name="skin.switch_force" src="PNG:ID_PNG_SWITCH_FORCE" states="8"/>
+  <imglist name="skin.main_icon" src="PNG:ID_ICON_MAIN" states="1"/>
+  <imgframe name="skin.home_new_icon" src="PNG:ID_PNG_HOME_NEW_ICON"/>
+  <imgframe name="skin.home_edit_icon" src="PNG:ID_PNG_HOME_EDIT_ICON"/>
+  <imglist name="skin.home_new" src="PNG:ID_PNG_HOME_NEW" states="3"/>
+  <imglist name="skin.home_tree" src="PNG:ID_PNG_HOME_TREE" states="3"/>
+
+</skin>

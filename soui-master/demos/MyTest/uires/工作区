@@ -1,0 +1,11 @@
+<NotepadPlus>
+    <Project name="Mytest">
+        <File name="uidef\init.xml" />
+        <File name="xml\dlg_main.xml" />
+        <File name="xml\menu_tray.xml" />
+        <File name="xml\page_treeview.xml" />
+        <File name="xml\treectrl.xml" />
+        <File name="xml\dlg_create_pro.xml" />
+        <File name="uires.idx" />
+    </Project>
+</NotepadPlus>

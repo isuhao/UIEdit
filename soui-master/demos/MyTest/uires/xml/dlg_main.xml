@@ -1,0 +1,57 @@
+﻿<SOUI name="mainWindow" title="@string/title" 
+      bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" 
+      width="1024" height="500"  margin="1,5,5,5"  
+      resizable="1" wndType="appMain"
+toolWindow="1"
+translucent="1" 
+>
+  <root skin="skin.main_center" cache="1">
+      <caption pos="0,0,-0,30" show="1" font="adding:0">
+        <icon name="main_icon" skin="skin.main_icon" pos="8,9"></icon>
+      </caption> 
+      <text pos="29,6" class="cls_title">@string/title</text>
+      <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+      <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
+      <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+      <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
+
+    <!--菜单-->
+    <window pos="1,[1,-1,@34" colorBkgnd="#d0d0d0" alpha="20">
+      <!--<hr pos="0,0,-0,@1" mode="horizontal" colorLine="#d0d0d0"></hr>-->
+      <toolbox name="btn_new" skin="skin.home_new" icon="skin.home_new_icon"
+                 text="新建" pos="8,|-15, @70, @30" animate="1"
+                 class="cls_title"></toolbox>
+      <toolbox name="btn_edit" skin="skin.home_new" icon="skin.home_edit_icon"
+                 text="编辑" pos="[0,{0, @70, @30" animate="1"
+                 class="cls_title"></toolbox>
+      <toolbox name="btn_input" skin="skin.home_new" icon="skin.home_new_icon"
+                 text="输入框" pos="[0,{0, @70, @30" animate="1"
+                 class="cls_title"></toolbox>				 
+      <!--<imgbtn pos="120, 30" skin="skin.home_tiyan" name="home_tiyan"/>
+      <switch pos="[0, [50" skin="skin.switch_back" skinforce="skin.switch_force" open="0"/>-->
+      <!--<button pos="[10,[10,@50,@20" name ="btn_test"></button>-->
+      
+    </window>
+    
+    <window pos="1,[1,@200,-1" colorBkgnd="#d0d0d0" alpha="10" center="true">
+        <text pos="10,9" class="cls_title" center="true">解决方案管理器</text>
+        <hr pos="5,[5,-5,@1" mode="horizontal" colorLine="#d0d0d0" ></hr>
+        <include src="layout:page_tree"></include>
+      
+    </window>
+	
+	<window pos="[0,{0,]0,-0" name="wnd_layout" colorBkgnd="#d0d0d0">解决方案管理器
+	
+	</window>
+    
+    <window pos="-200,{0,@200,-1" colorBkgnd="#d0d0d0" alpha="10" center="true">
+        <text pos="10,9" class="cls_title" center="true">属性管理器</text>
+      <link pos="5,36" cursor="hand" colorText="#1e78d5" href="www.163.com"  >投票</link>
+
+      <mybutton pos="10,70,@150,@50" name ="btn_mytest"></mybutton>
+      
+    </window>    
+  
+
+      </root>
+</SOUI>

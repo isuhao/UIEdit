@@ -1,0 +1,44 @@
+﻿<resource>
+  <UIDEF>
+    <file name="XML_INIT" path="uidef\init.xml"  />
+  </UIDEF>
+  <LAYOUT>
+    <file name="XML_MAINWND" path="xml\dlg_main.xml"  />
+    <file name="page_tree" path="xml\treectrl.xml"  />
+    <file name="page_treeview" path="xml\page_treeview.xml"  />
+    <file name="XML_dlg_pro" path="xml\dlg_create_pro.xml"  />	   
+  </LAYOUT>
+  
+  <values>
+  	<file name="string" path="values\string.xml"/>
+  	<file name="color" path="values\color.xml"/>
+  	<file name="skin" path="values\skin.xml"/>
+  </values>
+
+  <IMG>
+        <file name="traymenu_icons" path="image\traymenu_icons.png"  />
+          </IMG>
+  <ICON>
+    <file name="ICON_LOGO"  path="image\soui.ico"    />
+  </ICON>
+    <translator>
+    <file name="lang_cn"  path="translator\lang_cn.xml"    />
+  </translator>
+      <SMENU>
+    <file name="menu_tray" path="xml\menu_tray.xml"  />
+  </SMENU>
+  <PNG>
+
+    <file name="ID_PNG_MAIN_CENTER" path="image\main_center.png"/>
+
+    <!-- page main-->
+    <file name="ID_PNG_HOME_TIYAN" path="image\home_tiyan.png"/>
+    <file name="ID_PNG_SWITCH_BACK" path="image\switch_back.png"/>
+    <file name="ID_PNG_SWITCH_FORCE" path="image\switch_force.png"/>
+    <file name="ID_PNG_HOME_NEW" path="image\btn_bg.png"/>
+    <file name="ID_PNG_HOME_NEW_ICON" path="image\home_menu_new.png"/>
+    <file name="ID_PNG_HOME_EDIT_ICON" path="image\home_menu_edit.png"/>
+    <file name="ID_PNG_HOME_TREE" path="image\treeicon.png"/>
+    <file name="ID_ICON_MAIN" path="image\main_icon.ico"/>
+  </PNG>
+  </resource>
